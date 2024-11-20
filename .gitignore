@@ -1,0 +1,32 @@
+.venv/*
+.vscode
+.idea
+.python-version
+*.wav
+bin
+db.sqlite3
+.env
+.env.prodtree
+.env.prod.db
+docker-compose.prod.yml
+Dockerfile.prod
+apps/*/migrations/*
+entrypoint.prod.sh
+staticfiles
+mediafiles
+
+media
+apps/keenthemes/tools/node_modules
+
+# Ignorar todos los archivos .pyc
+**/*.pyc
+
+# Ignorar todos los directorios _pycache_
+#__pycache__/
+#**/migrations/
+#apps/*/migrations/
+#
+#storage/
+#postgres_data/
+#redis_data/
+#postgresql/
